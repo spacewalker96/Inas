@@ -43,6 +43,7 @@
     },
     "homepage": "https://github.com/spacewalker96/Inas#readme",
     "dependencies": {
-        "normalize-scss": "^7.0.1"
+        "normalize-scss": "^7.0.1",
+        "normalize.css": "^8.0.1"
     }
 }
