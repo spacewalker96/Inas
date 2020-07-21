@@ -63,6 +63,7 @@
     color: #fff;
     font-size: 12px;
     text-align: center; }
+<<<<<<< HEAD
 
 @media screen and (max-width: 1175px) {
   .footer__content__items--logo {
@@ -76,3 +77,5 @@
     margin-left: 25%; }
   .footer__content__items {
     width: 100%; } }
+=======
+>>>>>>> 2b6da94375404ba5606509c5b9bc506bf90c8879

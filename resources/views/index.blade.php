@@ -12,16 +12,10 @@
 </head>
 
 <body>
-<!-- navbar -->
 
 
 
-<!-- section -->
-
-
-
-
-    <!--  FOOTER  -->
+    <!--  FOOTER START -->
 
     <div class="footer">
         <div class="footer__content">
