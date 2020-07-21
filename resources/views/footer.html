@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Document</title>
+    <style>
+        /* FOOTER */
+        .footer {
+            width: 100%;
+            background: #3f4c70;
+            display: block;
+        }
+
+
+        .footer__content {
+            width: 95%;
+            margin: auto;
+            padding: 30px 10px;
+            display: flex;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            justify-content: center;
+        }
+
+        .footer__items--logo {
+            margin-top: 1.2em;
+            width: 80%;
+        }
+
+        .footer__items {
+            width: 25%;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            color: #fff;
+        }
+
+        .footer__items p {
+            font-size: 16px;
+            text-align: justify;
+            line-height: 25px;
+            color: #fff;
+        }
+
+        .footer__items h1 {
+            color: #fff;
+        }
+
+        .border1 {
+            height: 3px;
+            width: 40px;
+            background: #ff9800;
+            color: #ff9800;
+            background-color: #ff9800;
+            border: 0px;
+        }
+
+        ul {
+            list-style: none;
+            color: #fff;
+            font-size: 15px;
+            letter-spacing: 0.5px;
+        }
+
+        ul a {
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            transition: 0.3s;
+        }
+
+        ul a:hover {
+            color: #ff9800;
+        }
+
+        ul li {
+            margin: 10px 0;
+            height: 25px;
+        }
+
+        li i {
+            margin-right: 20px;
+        }
+
+        .social-media {
+            width: 100%;
+            color: #fff;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .social-media a {
+            text-decoration: none;
+        }
+
+        .social-media i {
+            height: 25px;
+            width: 25px;
+            margin: 30px 10px;
+            padding: 4px;
+            color: #fff;
+            transition: 0.5s;
+        }
+
+        .social-media i:hover {
+            transform: scale(1.5);
+        }
+
+        .footer-bottom {
+            padding: 10px;
+            background: #00121b;
+            color: #fff;
+            font-size: 12px;
+            text-align: center;
+        }
+
+
+        @media screen and (max-width: 1275px) {
+            .footer__items--logo {
+                width: 70%;
+            }
+
+            .footer__items {
+                width: 50%;
+            }
+        }
+
+
+        @media screen and (max-width: 660px) {
+            .footer__items--logo {
+                width: 50%;
+                margin-left: 25%;
+            }
+
+            .footer__items {
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+
+
+    <div class="footer">
+        <div class="footer__content">
+
+            <div class="footer__items">
+                <img src="../dist/img/inas_logo.jpeg" alt="" class="footer__items--logo">
+                <!-- <h1>INAS Tanger</h1>
+                <p>L’INAS - Institut National de l’Action Sociale</p> -->
+            </div>
+
+
+            <div class="footer__items">
+                <h3>Liens</h3>
+                <div class="border1"></div>
+
+                <ul>
+                    <a href="#">
+                        <li>HOME</li>
+                    </a>
+                    <a href="#">
+                        <li>PRESENTATION DE L’INAS</li>
+                    </a>
+                    <a href="#">
+                        <li>MOT DE DIRECTRICE</li>
+                    </a>
+                    <a href="#">
+                        <li>MISSION</li>
+                    </a>
+                    <a href="#">
+                        <li>HISTORIQUE</li>
+                    </a>
+                    <a href="#">
+                        <li>DEPARTEMENTS</li>
+                    </a>
+                </ul>
+            </div>
+
+
+            <div class="footer__items">
+                <h3>Accès rapide</h3>
+                <div class="border1"></div>
+
+                <ul>
+                    <a href="#">
+                        <li>AGENDA</li>
+                    </a>
+                    <a href="#">
+                        <li>EVENEMENTS</li>
+                    </a>
+                    <a href="#">
+                        <li>ACTIVITES</li>
+                    </a>
+                    <a href="#">
+                        <li>AVIS</li>
+                    </a>
+                    <a href="#">
+                        <li>NEWS</li>
+                    </a>
+                    <a href="#">
+                        <li>ESPACE PRESSE</li>
+                    </a>
+                </ul>
+            </div>
+
+
+            <div class="footer__items">
+                <h3>Contact us</h3>
+                <div class="border1"></div>
+                <ul>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i>0539940971</li>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i>xyz@gmail.com</li>
+                    <li><i class="fas fa-map-marker-alt" aria-hidden="true"></i>INAS, Rue Hariri B.P 1168, Tanger, Maroc
+                    </li>
+
+                </ul>
+
+
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer-bottom">
+            Copyright &copy; Digital24 2020.
+        </div>
+    </div>
+
+
+</body>
+
+</html>
